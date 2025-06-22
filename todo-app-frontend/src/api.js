@@ -1,6 +1,8 @@
 import axios from "axios";
 
-const API_URL = process.env.REACT_APP_API_URL;
+// const API_URL = "http://localhost:9000/api/todos";
+// const API_URL = process.env.REACT_APP_API_URL;
+const API_URL = "http://13.201.1.210:9000/api/todos";
 
 // Fetch all todos
 export const fetchTodos = async () => {
